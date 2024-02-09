@@ -16,25 +16,25 @@ const contacts = {
       title: "Email",
       type: "string",
       description: "Email Address",
-      validation: (Rule) => Rule.required().min(40).max(50),
+      validation: (Rule) => Rule.required(),
     }),
     defineField({
         name: "instagram",
         title: "Instagram",
         type: "string",
-        validation: (Rule) => Rule.required().min(40).max(50),
+        validation: (Rule) => Rule.required(),
       }),
     defineField({
         name: "facebook",
         title: "Facebook",
         type: "string",
-        validation: (Rule) => Rule.required().min(40).max(50),
+        validation: (Rule) => Rule.required(),
     }),
     defineField({
         name: "address",
         title: "Address",
         type: "string",
-        validation: (Rule) => Rule.required().min(40).max(50),
+        validation: (Rule) => Rule.required(),
     }),
 ]
 };
