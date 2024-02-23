@@ -6,4 +6,23 @@ export async function getContacts() {
     groq`*[_type == "contacts"]`
   );
 }
-
+export async function getAbout() {
+  return client.fetch(
+    groq`*[_type == "about"]`
+  );
+}
+export async function getServices() {
+  return client.fetch(
+    groq`*[_type == "services"]`
+  );
+}
+export async function getProducts() {
+  return client.fetch(
+    groq`*[_type == "products"]`
+  );
+}
+export async function getTestimonials() {
+  return client.fetch(
+    groq`*[_type == "testimoials"]`
+  );
+}
